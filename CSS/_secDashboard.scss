@@ -1,0 +1,38 @@
+@media screen and (min-width:700px) {
+    
+
+.wrapperSecond{
+    display: none;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    background-color:hsl(217, 21%, 12%);
+    border-radius: 25px;
+    .thxMenu{
+        @include flex(center, center, column);
+        margin: 4%;
+        .illustration{
+            margin: 10%;
+        }
+        .ratingMenu{
+            text-align: center;
+            background-color: hsla(213, 20%, 18%, 0.5);
+            border-radius: 15px;
+            width: 55%;
+            color: $Orange;
+            line-height: 35px;
+        }
+        .contentWrapperSecond{
+            h1{
+                margin: 7% 0 5%;
+                text-align: center;
+                color: $White;
+            }
+            p{
+                color: $MediumGrey;
+                text-align:center;
+            }
+        }
+    } 
+}
+}

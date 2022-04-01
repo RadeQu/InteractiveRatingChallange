@@ -1,0 +1,83 @@
+@media  screen and (min-width: 700px) {
+body{
+    background-color: $VeryDarkBlue;
+    width: 100vw;
+    height: 100vh;
+    @include flex (center, center, column);
+    position: relative;
+}
+.wrapperFirst{
+    display: block;
+    height: 100%;
+    width: 50%;
+    margin: 0 auto;
+    background-color:hsl(217, 21%, 12%);
+    border-radius: 25px;
+    .star img{
+        background-color: hsla(213, 20%, 18%, 0.5);
+        border-radius: 50%;
+        padding: 4%;
+        margin: 7%;
+    }
+    .content{
+        margin:0 7%;
+        h1{
+            color: $White;
+            margin-bottom: 5% ;
+        }
+        p{
+            color: $MediumGrey;
+        }
+    }
+    .rating{
+        margin-top: 5%;
+        @include flex (space-between, center, row);
+        button{
+            @include circleForNumbers;
+            color: $MediumGrey;
+            font-weight: 400;
+            border: hidden;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        button:hover{
+            background-color: $Orange;
+            color: $White;
+            
+        }
+        .actived
+        {
+            background-color: hsl(216, 12%, 54%);
+            color: $White;
+        }
+    }
+    .btn{
+        border-radius: 15px;
+        border: hidden;
+        color: $White;
+        background-color: $Orange;
+        width: 85%;
+        margin: 7% 0 7% 7%;
+        line-height: 250%;
+        text-transform: uppercase;
+        letter-spacing: 0.25em;
+        transition: all 0.3s;
+    }
+    .btn:hover{
+        color: $Orange;
+        background-color: $White;
+        cursor: pointer;
+    }
+}
+
+.attribution {
+    position: absolute;
+    font-size: 11px;
+    text-align: center;
+    bottom: 0;
+  .a {
+    color: hsl(228, 45%, 44%);
+  }
+}
+
+}
