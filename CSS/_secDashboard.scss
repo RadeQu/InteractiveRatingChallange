@@ -4,10 +4,11 @@
 .wrapperSecond{
     display: none;
     height: 100%;
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     background-color:hsl(217, 21%, 12%);
     border-radius: 25px;
+    line-height: 25px;
     .thxMenu{
         @include flex(center, center, column);
         margin: 4%;

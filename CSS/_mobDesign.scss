@@ -52,16 +52,17 @@
             }
         }
         .btn{
+            @include flex (center, center, row);
             border-radius: 15px;
-            border: hidden;
             color: $White;
             background-color: $Orange;
             width: 85%;
-            margin: 7% 0 7% 7%;
+            margin: 7% 7% 7% 7%;
             line-height: 250%;
             text-transform: uppercase;
             letter-spacing: 0.25em;
             transition: all 0.3s;
+        
         }
         .btn:hover{
             color: $Orange;
