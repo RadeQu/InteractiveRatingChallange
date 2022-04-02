@@ -38,6 +38,8 @@ body {
     background-color: #181d25;
     border-radius: 25px;
     line-height: 25px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
   }
   .wrapperFirst .star img {
     background-color: rgba(37, 45, 55, 0.5);
@@ -84,6 +86,8 @@ body {
     background-color: rgba(37, 45, 55, 0.5);
     border-radius: 50%;
     padding: 5%;
+    height: 50%;
+    width: 13.5%;
     color: #7c8798;
     font-weight: 400;
     border: hidden;
@@ -118,7 +122,7 @@ body {
     background-color: #fb7413;
     width: 85%;
     margin: 7% 7% 7% 7%;
-    line-height: 250%;
+    line-height: 300%;
     text-transform: uppercase;
     letter-spacing: 0.25em;
     -webkit-transition: all 0.3s;
@@ -261,6 +265,8 @@ body {
     background-color: rgba(37, 45, 55, 0.5);
     border-radius: 50%;
     padding: 5%;
+    height: 50%;
+    width: 13.5%;
     color: #7c8798;
     font-weight: 400;
     border: hidden;
